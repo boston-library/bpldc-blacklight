@@ -3,24 +3,27 @@ en:
 
   blacklight:
 
-    application_name: 'Totally Awesome Library Digital Collections'
-    application_desc: 'This site provides access to materials of historical interest from this totally awesome library.'
+    application_name: 'Boston Public Library - Digital Collections'
+    application_desc: 'An online library of photographs, manuscripts, audio recordings, and other materials of historical interest from the Boston Public Library.'
 
     email:
-          reply_to: 'reply_to_email_address@exmaple.org'
+          reply_to: 'webmaster@bpl.org'
           record_mailer:
-            name: 'Totally Awesome Library'
-            email: 'reply_to_email_address@exmaple.org'
+            name: 'Boston Public Library'
+            email: 'webmaster@bpl.org'
           text:
-            subject: 'Totally Awesome Library E-mail: link to item'
+            subject: 'Boston Public Library E-mail: link to item'
 
     feedback:
           text:
-            subject: 'Totally Awesome Library Digital Collections: contact email'
+            subject: 'Boston Public Library Digital Collections: contact email'
+
+    footer:
+              address: '700 Boylston St, Boston, MA 02116'
 
     home:
           banner:
-            center_text: 'Explore historical collections from this totally awesome library.'
+            center_text: 'Discover historical collections from Boston Public Library'
           browse:
             sections:
               maps:
@@ -34,9 +37,9 @@ en:
           context:
             about:
               title: 'About This Site'
-              text: 'This site provides access to materials of historical interest from this totally awesome library.'
+              text: 'An online library of photographs, manuscripts, audio recordings, and other materials of historical interest from the Boston Public Library.'
             news:
               title: 'News & Announcements'
-              rss_link: 'http://awesomelibrary.org/blog?feed=rss2'
-              blog_title: 'This Awesome Library Blog'
-              blog_url: 'https://awesomelibrary.org/blog'
+              rss_link: 'http://www.bpl.org/press/?feed=rss2'
+              blog_title: 'Boston Public Library Press Room'
+              blog_url: 'http://www.bpl.org/press/'

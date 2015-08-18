@@ -2,11 +2,11 @@
 
 development:
   institution:
-    pid: commonwealth:abc123
+    pid: bpl-dev:4q77fr32b
 
 test:
   institution:
-      pid: commonwealth:abc123
+      pid: bpl-dev:4q77fr32b
 
 production:
   institution:

@@ -5,8 +5,8 @@ en:
   devise:
     mailer:
       confirmation_instructions:
-        subject: 'Awesome Library - Confirmation instructions'
+        subject: 'Boston Public Library Digital Collections - Confirmation instructions'
       reset_password_instructions:
-        subject: 'Awesome Library - Reset password instructions'
+        subject: 'Boston Public Library Digital Collections - Reset password instructions'
       unlock_instructions:
-        subject: 'Awesome Library - Unlock Instructions'
+        subject: 'Boston Public Library Digital Collections - Unlock Instructions'
