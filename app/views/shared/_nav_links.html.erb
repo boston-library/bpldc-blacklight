@@ -1,0 +1,20 @@
+<% nav_links = {
+        :collections => {:nav_link_title => t('blacklight.collections.nav'),
+                         :nav_link_path => collections_path},
+        :map => {:nav_link_title => t('blacklight.maps.title'),
+                 :nav_link_path => map_path},
+        :formats => {:nav_link_title => t('blacklight.navigation.format'),
+                     :nav_link_path => formats_facet_path},
+        :about => {:nav_link_title => t('blacklight.home.context.about.title'),
+                      :nav_link_path => about_site_path}
+} %>
+
+<% nav_links.each_with_index do |(k, v), index| %>
+    <% li_class = index == nav_links.length-1 ? ' last_nav' : '' %>
+    <%= content_tag(:li,
+                    link_to(v[:nav_link_title],
+                            v[:nav_link_path]),
+                    :class => li_class,
+                    :tabindex => '-1') %>
+<% end %>
+

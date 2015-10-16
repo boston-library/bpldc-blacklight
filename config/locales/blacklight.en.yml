@@ -43,3 +43,7 @@ en:
               rss_link: 'http://www.bpl.org/press/?feed=rss2'
               blog_title: 'Boston Public Library Press Room'
               blog_url: 'http://www.bpl.org/press/'
+
+    search:
+          form:
+            q: 'Search digital collections...'

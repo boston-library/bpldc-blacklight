@@ -1,0 +1,22 @@
+/* styles for app/views/shared/footer */
+
+#footer {
+  border: none;
+  margin-top: 6em;
+  margin-bottom: 0.5em;
+  padding: 0.5em 1em 0.7em;
+  background: none;
+  filter: none;
+
+  #footer_bpl {
+    text-align: center;
+    font-size: 11px;
+
+    .footer_social_img {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+  }
+
+}

@@ -9,5 +9,5 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 Rails.application.config.assets.precompile += %w(wdl-viewer/fd-slider.min.css ie_fixes.css *.js)
 
-# application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
+# application.js, application.scss, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
